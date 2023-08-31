@@ -1,0 +1,205 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* Hospital_Management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-31 06:50+0000\n"
+"PO-Revision-Date: 2023-08-31 06:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: Hospital_Management
+#: model:ir.model.fields.selection,name:Hospital_Management.selection__hospital_m_doctor_register__doctorSchedule__night
+msgid "4 PM - 10 PM"
+msgstr ""
+
+#. module: Hospital_Management
+#: model:ir.model.fields.selection,name:Hospital_Management.selection__hospital_m_doctor_register__doctorSchedule__morning
+msgid "8 AM - 4 PM"
+msgstr ""
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_specialty__area
+msgid "Area of specialty"
+msgstr "Area de especialidad"
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_medical_appointments__code
+msgid "Code"
+msgstr "Codigo"
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_register__create_uid
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_specialty__create_uid
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_medical_appointments__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_register__create_date
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_specialty__create_date
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_medical_appointments__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_medical_appointments__patientSchedule
+msgid "Date and Time"
+msgstr "Fecha y Hora"
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_register__display_name
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_specialty__display_name
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_medical_appointments__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_medical_appointments__doctorId
+msgid "Doctor"
+msgstr ""
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_register__doctorId
+msgid "Doctor Id"
+msgstr "Cédula del doctor"
+
+#. module: Hospital_Management
+#: model:ir.actions.act_window,name:Hospital_Management.DoctorRegister_action
+#: model:ir.ui.menu,name:Hospital_Management.DoctorRegister_menu_item
+msgid "Doctor Register"
+msgstr "Registro de Doctores"
+
+#. module: Hospital_Management
+#: model_terms:ir.ui.view,arch_db:Hospital_Management.DoctorRegister_view_form
+msgid "Doctor Register formulary"
+msgstr "Formulario de registro de doctores"
+
+#. module: Hospital_Management
+#: model:ir.actions.act_window,name:Hospital_Management.DoctorsSpecialty_action
+msgid "Doctor Specialty "
+msgstr "Especialidad del doctor"
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_register__doctorLastName
+msgid "Doctor's Last Name"
+msgstr "Apellido del doctor"
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_register__name
+msgid "Doctor's Name"
+msgstr "Nombre del Doctor"
+
+#. module: Hospital_Management
+#: model:ir.ui.menu,name:Hospital_Management.DoctorsSpecialty_menu_item
+#: model_terms:ir.ui.view,arch_db:Hospital_Management.DoctorRegister_view_tree
+#: model_terms:ir.ui.view,arch_db:Hospital_Management.DoctorsSpecialty_view_tree
+msgid "Doctors Specialty"
+msgstr "Especialidad del doctor"
+
+#. module: Hospital_Management
+#: model:ir.model,name:Hospital_Management.model_hospital_m_doctor_register
+msgid ""
+"Es un modulo que se encarga de registrar a doctores en la base de datos"
+msgstr ""
+
+#. module: Hospital_Management
+#: model:ir.model,name:Hospital_Management.model_hospital_m_medical_appointments
+msgid "Este Modelo se encarga de Registrar las citas en la base de datos."
+msgstr ""
+
+#. module: Hospital_Management
+#: model:ir.model,name:Hospital_Management.model_hospital_m_doctor_specialty
+msgid "Este modelo gestiona la especialidad de los doctores"
+msgstr ""
+
+#. module: Hospital_Management
+#: model:ir.ui.menu,name:Hospital_Management.menu_Hospital_Management
+msgid "Hospital Management"
+msgstr "Gerencia de hospitales"
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_register__id
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_specialty__id
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_medical_appointments__id
+msgid "ID"
+msgstr "Cédula"
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_register____last_update
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_specialty____last_update
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_medical_appointments____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_register__write_uid
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_specialty__write_uid
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_medical_appointments__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_register__write_date
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_specialty__write_date
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_medical_appointments__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_medical_appointments__patientInsurance
+msgid "Life insurance"
+msgstr "Seguro de vida"
+
+#. module: Hospital_Management
+#: model:ir.actions.act_window,name:Hospital_Management.MedicalAppointments_action
+msgid "Medical Appointment"
+msgstr "Agenda"
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_specialty__name
+msgid "Name of specialty"
+msgstr "Nombre de la especialidad"
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_medical_appointments__note
+msgid "Note"
+msgstr "Notas"
+
+#. module: Hospital_Management
+#: model_terms:ir.ui.view,arch_db:Hospital_Management.MedicalAppointments_view_form
+#: model_terms:ir.ui.view,arch_db:Hospital_Management.MedicalAppointments_view_tree
+msgid "Patient Register formulary"
+msgstr "Registro de pasientes"
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_medical_appointments__patientid
+msgid "Patient's ID"
+msgstr "Cédula del paciente"
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_medical_appointments__patientLastName
+msgid "Patient's Last name"
+msgstr "Apellido del paciente"
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_medical_appointments__patientName
+msgid "Patient's name"
+msgstr "Nombre del paciente"
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_register__doctorSchedule
+msgid "Schedule"
+msgstr "Horario"
+
+#. module: Hospital_Management
+#: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_register__doctorsSpecialtyId
+msgid "specialization"
+msgstr "Especialización"
