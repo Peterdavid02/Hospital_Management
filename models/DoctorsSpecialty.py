@@ -1,9 +1,9 @@
 from odoo import fields, models, api
 
 
-class ModelName(models.Model):
+class DoctorsSpecialty(models.Model):
     _name = 'Hospital_Management.DoctorsSpecialty'
     _description = 'Este modelo gestiona la especialidad de los doctores'
 
-    Name = fields.Char()
-    Area = fields.Char()
+    Name = fields.Char(string="Name of specialty")
+    Area = fields.Char(string="Area of specialty")
