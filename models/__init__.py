@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from . import DoctorRegister
-from . import DoctorsSpecialty
-from . import MedicalAppointments
+from . import doctorRegister
+from . import doctorsSpecialty
+from . import medicalAppointments
+from . import noDuplicateTime

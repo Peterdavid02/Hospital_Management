@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="DoctorsSpecialty_view_tree" model="ir.ui.view">
+            <field name="name">DoctorsSpecialty.view.tree</field>
+            <field name="model">hospital_m.doctor_specialty</field>
+            <field name="arch" type="xml">
+                <tree string="Doctors Specialty" editable="bottom">
+                    <field name="name"/>
+                    <field name="area"/>
+                </tree>
+            </field>
+        </record>
+
+         <record id="DoctorsSpecialty_action" model="ir.actions.act_window">
+            <field name="name">Doctor Specialty </field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">hospital_m.doctor_specialty</field>
+            <field name="view_mode">tree</field>
+        </record>
+          <menuitem id="DoctorsSpecialty_menu_item"
+                  name="Doctors Specialty"
+                  parent="Hospital_Management.menu_Hospital_Management"
+                  action="DoctorsSpecialty_action"
+                  sequence="10"/>
+
+    </data>
+</odoo>

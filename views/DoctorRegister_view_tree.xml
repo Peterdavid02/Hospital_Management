@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="DoctorRegister_view_form" model="ir.ui.view">
+            <field name="name">DoctorRegister_view_form</field>
+            <field name="model">hospital_m.doctor_register</field>
+            <field name="arch" type="xml">
+                <form string="Doctor Register formulary">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                                <field name="doctorLastName"/>
+                                <field name="doctorId"/>
+                            </group>
+                            <group>
+                                <field name="doctorsSpecialtyId"/>
+                                <field name="doctorSchedule" widget="radio"/>
+                            </group>
+
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="DoctorRegister_view_tree" model="ir.ui.view">
+            <field name="name">DoctorRegister_view_tree</field>
+            <field name="model">hospital_m.doctor_register</field>
+            <field name="arch" type="xml">
+                <tree string="Doctors Specialty">
+                    <field name="name"/>
+                    <field name="doctorLastName"/>
+                    <field name="doctorId"/>
+                    <field name="doctorsSpecialtyId"/>
+                    <field name="doctorSchedule" widget="radio"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <record id="DoctorRegister_action" model="ir.actions.act_window">
+            <field name="name">Doctor Register</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">hospital_m.doctor_register</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="DoctorRegister_menu_item"
+                  name="Doctor Register"
+                  parent="Hospital_Management.menu_Hospital_Management"
+                  action="DoctorRegister_action"
+                  sequence="5"/>
+
+    </data>
+</odoo>
