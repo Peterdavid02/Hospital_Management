@@ -123,7 +123,7 @@ msgstr ""
 #. module: Hospital_Management
 #: model:ir.ui.menu,name:Hospital_Management.menu_Hospital_Management
 msgid "Hospital Management"
-msgstr "Gerencia de hospitales"
+msgstr "Gerencia de hospital"
 
 #. module: Hospital_Management
 #: model:ir.model.fields,field_description:Hospital_Management.field_hospital_m_doctor_register__id
